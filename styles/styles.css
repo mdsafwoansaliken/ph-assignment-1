@@ -76,7 +76,8 @@
     color: #444343;
     margin-bottom: 21px;
 }
-.failure-point{
+
+.failure-point {
     display: flex;
     gap: 10px;
 }
@@ -84,10 +85,55 @@
 .failure-point-description {
     width: 349px;
     font-weight: 400;
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     margin-bottom: 8px;
 }
-.icon{
+
+.icon {
     width: 24px;
     height: 24px;
+}
+
+/* Plans styles */
+.plan-section {
+    margin-bottom: 130px;
+}
+
+.plan-section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin: 135px 625x 25px 745px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 230px 130px 230px;
+}
+
+.plan {}
+
+.plan-visual {
+    width: 92px;
+    height: 92px;
+    margin-left: 78px;
+}
+
+.plan-writing {
+    width: 270px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
 }
