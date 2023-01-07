@@ -137,3 +137,36 @@
     font-size: 25px;
     text-align: center;
 }
+
+.positive-mind {
+    display: flex;
+    margin: 0px 230px 130px 170px;
+    width: 1140px;
+    height: 300px;
+}
+
+.gradient {
+    position: absolute;
+
+}
+
+.watch {
+}
+
+.positive-description {
+    position: absolute;
+    width: 459px;
+    height: 182px;
+    margin: 40px 615px 145px 50px;
+}
+
+.positive-quote {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.positive-description .btn-primary{
+    width: 160px;
+    height: 64px;
+}
