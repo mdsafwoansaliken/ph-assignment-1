@@ -1,0 +1,45 @@
+. {
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* main button styles */
+.btn-primary {
+    background-color: #FFFFFF;;
+    color:#005FAC;
+}
+/* head banner style */
+
+.banner {
+    position: relative;
+    text-align: right;
+}
+
+.banner-title {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    position: absolute;
+    width: 500px;
+    left: 876px;
+    top: 468px;
+    color: #FFFFFF;
+}
+
+.banner .btn-primary {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    font-weight: 600;
+    font-size: 20px;
+    color: ;
+}
