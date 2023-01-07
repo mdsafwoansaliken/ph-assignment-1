@@ -1,4 +1,5 @@
 . {
+    margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 
@@ -7,7 +8,8 @@
 /* main button styles */
 .btn-primary {
     background-color: #FFFFFF;
-    ;
+    border-radius: 8px;
+    border: none;
     color: #005FAC;
 }
 
@@ -150,8 +152,7 @@
 
 }
 
-.watch {
-}
+.watch {}
 
 .positive-description {
     position: absolute;
@@ -166,7 +167,86 @@
     color: #FFFFFF;
     margin-bottom: 24px;
 }
-.positive-description .btn-primary{
+
+.positive-description .btn-primary {
     width: 160px;
     height: 64px;
+}
+
+/* footer styles */
+.footer {
+    background: #151414;
+    color: #F8F8F8;
+    display: flex;
+    width: 1600px;
+    height: 576px;
+}
+
+.footer-writing {
+    margin: 130px 150px 130px 230px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 485px;
+    margin-bottom: 24px;
+}
+
+.email {
+    width: 184px;
+    margin-bottom: 16px;
+}
+
+.phone {
+    width: 186px;
+}
+
+.social-media {}
+
+.subscribe {
+    margin: 143px 230px 242px 180px;
+    width: 325px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 25px;
+    width: 125px;
+    text-align: left;
+}
+
+.subscribe-email {
+    width: 325px;
+    height: 65px;
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    border-color:#FFFFFF;
+    border-radius: 8px;
+}
+.subscribe-email ::placeholder{
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.subscribe-btn {
+    width: 170px;
+    height: 65px;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
 }
