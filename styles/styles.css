@@ -208,6 +208,11 @@
 .phone {
     width: 186px;
 }
+.social-link{
+    margin-right: 18px;
+    height: 45px;
+    width: 45px;
+}
 
 .social-media {}
 
